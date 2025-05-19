@@ -23,7 +23,6 @@ main {
     flex: 1;
 }
 
-/* Header blijft bovenaan vast */
 .header {
     position: fixed;
     top: 0;
@@ -68,7 +67,6 @@ main {
     width: 100%;
 }
 
-/* Game sectie */
 .game-section {
     display: flex;
     margin-top: 8rem;
@@ -124,7 +122,6 @@ main {
     font-size: 16px;
 }
 
-/* Footer */
 footer {
     background: linear-gradient(180deg, transparent, #111057);
     padding: 20px;
@@ -132,7 +129,6 @@ footer {
     color: white;
 }
 
-/* Mobiel */
 @media (max-width: 768px) {
     .header {
         padding: 20px 40px;
@@ -148,7 +144,6 @@ footer {
     }
 }
 
-/* Eventuele formulierregels (optioneel) */
 .form-rules {
     max-width: 800px;
     margin: 120px auto 40px;
